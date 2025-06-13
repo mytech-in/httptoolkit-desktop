@@ -6,18 +6,18 @@ jobs:
     strategy:
       matrix:
         include:
-          - platform: linux
-            arch: x64
-            os: "ubuntu-22.04"
-          - platform: linux
-            arch: arm64
-            os: "ubuntu-24.04-arm"
+#          - platform: linux
+#            arch: x64
+#            os: "ubuntu-22.04"
+#          - platform: linux
+#            arch: arm64
+#            os: "ubuntu-24.04-arm"
           - platform: windows
             arch: x64
             os: "windows-2019"
-          - platform: mac
-            arch: x64
-            os: "macos-13"
+#          - platform: mac
+#            arch: x64
+#            os: "macos-13"
           - platform: mac
             arch: arm64
             os: "macos-14"
