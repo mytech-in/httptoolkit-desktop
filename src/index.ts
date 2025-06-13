@@ -33,7 +33,8 @@ const packageJson = require('../package.json');
 
 const isWindows = os.platform() === 'win32';
 
-const APP_URL = process.env.APP_URL || 'https://app.httptoolkit.tech';
+//const APP_URL = process.env.APP_URL || 'https://app.httptoolkit.tech';
+const APP_URL = process.env.APP_URL || 'http://192.168.0.20';
 const hasTrustedOrigin = (url: URL) => url.origin === APP_URL;
 
 const AUTH_TOKEN = crypto.randomBytes(20).toString('base64url');
